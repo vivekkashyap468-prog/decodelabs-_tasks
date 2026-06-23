@@ -1,18 +1,35 @@
-# DecodeLabs-Internship
-DecodeLabs Internship - Python Programming
-Batch Domain Status
+Python Programming Internship - Decode Labs
+Overview
+This repository contains the projects, assignments, and practice exercises completed during my Python Programming Internship at Decode Labs.
 
-👩‍💻 About This Repository
-This repository contains all Python Development projects completed during the DecodeLabs Industrial Training Program - Batch 2026.
+Skills Gained
+Python Fundamentals
+Object-Oriented Programming (OOP)
+Data Structures & Algorithms
+File Handling
+Exception Handling
+Python Libraries
+Problem Solving & Debugging
+Repository Structure
+Assignments
+Practice Programs
+Mini Projects
+Internship Tasks
+Technologies Used
+Python
+VS Code
+Git & GitHub
+Internship Details
+Organization: Decode Labs
 
-🗂️ Projects
-Projects will be added here weekly as the training progresses.
+Role: Python Programming Intern
 
-🛠️ Tech Stack
-Language: Python 3
-Tools: VS Code, GitHub
-🏢 About DecodeLabs
-DecodeLabs is an industrial training program that bridges the gap between learning code and building real-world projects.
+Duration: May 28, 2026 to June 28, 2026
 
-🌐 Website: www.decodelabs.tech
-📧 Email: decodelabs.tech@gmail.com
+Learning Outcomes
+Developed strong programming fundamentals.
+Improved logical thinking and problem-solving skills.
+Built practical Python applications.
+Learned industry-standard coding practices.
+Author
+Vivek Batham | Python Programming Intern | DecodeLabs | Batch 2026
