@@ -1,4 +1,4 @@
-Python Programming Internship - Decode Labs
+##Python Programming Internship - Decode Labs
 Overview
 This repository contains the projects, assignments, and practice exercises completed during my Python Programming Internship at Decode Labs.
 
