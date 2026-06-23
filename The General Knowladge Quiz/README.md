@@ -50,3 +50,21 @@ This version is a classic terminal-based program designed with Unicode-safe form
 * **Variables**: Keeping track of state (such as the player's score).
 * **If-Else Control Flow**: Evaluating input choices and rendering different outcomes based on user answers.
 * **Responsive Design**: Structuring layout containers for both mobile and desktop screens.
+
+<img width="958" height="535" alt="image" src="https://github.com/user-attachments/assets/85714ed9-5ae0-438b-b086-510c0c93a71c" />
+
+<img width="953" height="540" alt="image" src="https://github.com/user-attachments/assets/2d3a3523-3ca0-48b1-a05e-03cef2ddb1b7" />
+
+<img width="958" height="537" alt="image" src="https://github.com/user-attachments/assets/2ceb68f0-3352-4136-9c7e-48a6736d15b0" />
+
+<img width="960" height="537" alt="image" src="https://github.com/user-attachments/assets/23f4a414-827e-4ba3-ac4b-130379670b1e" />
+
+<img width="960" height="538" alt="image" src="https://github.com/user-attachments/assets/2152df89-7de1-42ab-b495-f84d743603b6" />
+
+##  Author
+Vivek Batham | Python Programming Intern | DecodeLabs | Batch 2026
+
+
+
+
+
