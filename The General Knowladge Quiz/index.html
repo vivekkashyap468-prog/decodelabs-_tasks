@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The General Knowledge Quiz</title>
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Organic Leaf Background Elements matching screenshot theme -->
+    <div class="leaf-container bottom-right">
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M180 180C140 160 110 130 90 90C70 130 40 160 0 180M90 90C110 50 140 20 180 0C140 20 110 50 90 90ZM90 90C70 50 40 20 0 0C40 20 70 50 90 90Z" stroke="#4C6E4F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M90 90C100 110 120 120 150 125M90 90C80 110 60 120 30 125M90 90C100 70 120 60 150 55M90 90C80 70 60 60 30 55" stroke="#6F9B73" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+    </div>
+    
+    <div class="leaf-container top-left">
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 20C60 40 90 70 110 110C130 70 160 40 200 20M110 110C90 150 60 180 20 200C60 180 90 150 110 110ZM110 110C130 150 160 180 200 200C160 180 130 150 110 110Z" stroke="#4C6E4F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+
+    <!-- Main Card Container -->
+    <main class="quiz-container">
+        <!-- WELCOME SCREEN -->
+        <section id="welcome-screen" class="screen active">
+            <h1 class="project-tag">PROJECT :</h1>
+            <h2 class="main-title">THE GENERAL KNOWLEDGE QUIZ</h2>
+            
+            <div class="goal-box">
+                <h3>Goal:</h3>
+                <p>Create a game that asks 3 questions (e.g., "What is the capital of France?"). Keep a score counter: +1 point for every correct answer. Print the final score at the end.</p>
+            </div>
+            
+            <div class="skill-box">
+                <p><strong>Key Skill:</strong> If-Else logic & Variables.</p>
+                <p><strong>Why it matters:</strong> This teaches "Control Flow"—directing the program based on user choices.</p>
+            </div>
+            
+            <button id="start-btn" class="btn primary-btn">Start Quiz</button>
+        </section>
+
+        <!-- QUIZ SCREEN -->
+        <section id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-container">
+                    <span id="question-number">Question 1 of 3</span>
+                    <div class="progress-bar">
+                        <div id="progress-fill"></div>
+                    </div>
+                </div>
+                <div class="score-badge">Score: <span id="current-score">0</span></div>
+            </div>
+
+            <div class="question-container">
+                <h3 id="question-text">Question loading...</h3>
+            </div>
+
+            <div id="options-container" class="options-grid">
+                <!-- Options will be generated dynamically by JavaScript -->
+            </div>
+
+            <div class="quiz-footer">
+                <button id="next-btn" class="btn disabled" disabled>Next Question</button>
+            </div>
+        </section>
+
+        <!-- RESULTS SCREEN -->
+        <section id="results-screen" class="screen">
+            <h2 class="results-title">Quiz Completed!</h2>
+            
+            <div class="results-card">
+                <div class="circular-progress">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path id="circle-fill" class="circle" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    </svg>
+                    <div class="percentage-text">
+                        <span id="score-fraction">0/3</span>
+                        <span class="subtext">correct</span>
+                    </div>
+                </div>
+                
+                <h3 id="feedback-headline">Great Effort!</h3>
+                <p id="feedback-desc">You scored 0 out of 3. Practice makes perfect!</p>
+            </div>
+
+            <button id="restart-btn" class="btn primary-btn">Try Again</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        Created for "The General Knowledge Quiz" Project
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
