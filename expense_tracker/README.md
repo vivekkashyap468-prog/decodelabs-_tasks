@@ -35,6 +35,12 @@ total += new_expense
 
 ---
 
+
+## Example Screen Shot
+
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/5ec4b0d6-ac95-4216-bbce-f92a46881caf" />
+
+
 ## Features
 
 - **Interactive Inputs**: Keep typing expense values one after another.
