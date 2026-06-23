@@ -26,3 +26,7 @@ A simple, interactive command-line To-Do List application written in Python. Thi
 ## Screen Shot
 -<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/5624cca5-aa53-46b5-9c3f-761485200b4e" />
 
+## Author
+Vivek Batham | Python Programming Intern | DecodeLabs | Batch 2026
+
+
