@@ -22,3 +22,7 @@ A simple, interactive command-line To-Do List application written in Python. Thi
 - **While Loops**: Keeping the program running until the user decides to exit.
 - **Control Flow**: Using `if-elif-else` conditions for user choice selection.
 - **Enumerate**: Printing tasks along with their line numbers.
+
+## Screen Shot
+-<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/5624cca5-aa53-46b5-9c3f-761485200b4e" />
+
